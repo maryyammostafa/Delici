@@ -1,0 +1,52 @@
+@keyframes upDown {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(30px);
+    }
+}
+
+@keyframes rotating {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes navBtn {
+    0%{
+        width: 30px;
+    }
+    50%{
+        width: 15px;
+    }
+    100%{
+        width: 30px;
+    }
+}
+
+@keyframes load {
+    0%{
+        opacity: 0;
+        transform: rotateY(-90deg)
+    }
+    25%{
+        opacity: 1;
+        transform: rotateY(0)
+    }
+    50%{
+        opacity: 1;
+        transform: rotateY(0)
+    }
+    75%{
+        opacity: 0;
+        transform: rotateY(-90deg)
+    }
+    100%{
+        opacity: 0;
+        transform: rotateY(-90deg)
+    }
+}

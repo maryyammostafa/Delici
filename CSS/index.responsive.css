@@ -1,0 +1,466 @@
+@media (max-width: 1300px) {
+    section .header{
+        font-size: 30px;
+    }
+
+    nav{
+        padding: 20px 10px;
+    }
+    nav .container .logo{
+        width: 40%;
+    }
+    nav .container ul{
+        display: none;
+    }
+
+    header .carousell button.prev,
+    header .carousell button.next{
+        display: none;
+    }
+    header .carouselInner .carouselItem .content h2{
+        font-size: 30px;
+    }
+    header .carouselInner .carouselItem .content p{
+        font-size: 12px;
+    }
+    header .carouselInner .carouselItem .content a{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    header .book{
+        width: 80px;
+        height: 80px;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    #About .content p{
+        width: 100%;
+        padding: 0 30px;
+    }
+    #About .content .part1,
+    #About .content .part2,
+    #About .content .part3{
+        margin-top: initial;
+    }
+
+    #OurStory .part1 .item p:nth-of-type(1){
+        padding: 0 30px;
+        font-size: 14px;
+    }
+    #OurStory .part1 .item button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    #OurStory .part2 .item {
+        width: 270px;
+    }
+    #OurStory .part2 .item .rightImg{
+        width: 40%;
+    }
+    #OurStory .part2 .item .leftImg{
+        width: 60%;
+        padding: 16px 0;
+    }
+
+    #SpecialDish .row{
+        height: initial;
+    }
+    #SpecialDish .bg{
+        width: 100%;
+    }
+    #SpecialDish .part2 .item{
+        width: 100%;
+        margin: 30px 50px;
+    }
+    #SpecialDish .part2 .item .bd{
+        left: -20%;
+    }
+    #SpecialDish .part2 .item p{
+        font-size: 14px;
+    }
+    #SpecialDish .part2 .item a{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    #Menu .menuNav ul{
+        margin: 0 auto;
+        width: max-content;
+    }
+    #Menu .menu .row .part .row1{
+        margin: auto;
+    }
+    #Menu .menu .row .part .row1 .item1{
+        width: 80px;
+        height: 80px;
+    }
+    #Menu .menu .row .part .row1 .item2 .head{
+        display: block;
+    }
+    #Menu .menu .row .part .row1 .item2 .head span{
+        display: none;
+    }
+    #Menu .menu .row .line{
+        display: none;
+    }
+
+    #OurChefs .row .item{
+        width: 300px;
+    }
+
+    #Contact .box{
+        width: 300px;
+    }
+    #Contact .box form button{
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    #Contact .container>p{
+        font-size: 11px;
+    }
+
+    .popUp .box{
+        width: 300px;
+        padding: 20px 30px;
+    }
+    .popUp.sideBar .box{
+        width: 300px;
+    }
+    .popUp.sideBar .box p{
+        font-size: 14px;
+    }
+    .popUp.sideBar .box .content a{
+        font-size: 20px;
+    }
+    .popUp .box form button{
+        width: 100%;
+        padding: 10px 30px;
+    }
+    .popUp.menuItem .img .price{
+        padding: 8px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .popUp.menuItem .img button{
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    section .header{
+        font-size: 35px;
+    }
+
+    nav .container .logo{
+        width: 30%;
+    }
+
+    header .carouselInner .carouselItem .content h2{
+        font-size: 40px;
+    }
+    header .carouselInner .carouselItem .content a,
+    header .carouselInner .carouselItem .content p{
+        font-size: 13px;
+    }
+
+    #OurStory .part1 .item button{
+        font-size: 13px;
+    }
+
+    #SpecialDish .part2 .item{
+        margin: 30px 60px;
+    }
+    #SpecialDish .part2 .item .bd{
+        left: -15%;
+    }
+    #SpecialDish .part2 .item a{
+        font-size: 13px;
+    }
+
+    #Menu .menu .row .part .row1 .item1{
+        width: 100px;
+        height: 100px;
+    }
+
+    #Contact .container>p{
+        font-size: 14px;
+    }
+    #Contact .box form button{
+        font-size: 13px;
+    }
+
+    .popUp .box{
+        width: 350px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    section .header{
+        font-size: 40px;
+    }
+
+    nav .container .logo{
+        width: 25%;
+    }
+
+    header .carouselInner .carouselItem .content h2{
+        font-size: 50px;
+    }
+    header .carouselInner .carouselItem .content a,
+    header .carouselInner .carouselItem .content p{
+        font-size: 14px;
+    }
+
+    #About .content p{
+        width: 100%;
+        padding: 0 80px;
+    }
+
+    #OurStory .part1 .item p:nth-of-type(1){
+        padding: 0 50px;
+    }
+    #OurStory .part1 .item button{
+        font-size: 14px;
+    }
+
+    #SpecialDish .part2 .item{
+        width: 400px;
+        margin: 30px auto;
+    }
+    #SpecialDish .part2 .item .bd{
+        left: -12%;
+    }
+    #SpecialDish .part2 .item a{
+        font-size: 14px;
+    }
+
+    #Menu .menuNav ul{
+        margin-bottom: 12px;
+        width: initial;
+    }
+    #Menu .menu .row .part .row1 .item2 .head{
+        display: flex;
+    }
+    #Menu .menu .row .part .row1 .item2 .head span{
+        display: block;
+    }
+
+    #Contact .box{
+        width: 400px;
+    }
+    #Contact .box form button{
+        font-size: 14px;
+    }
+    #Contact .container>p{
+        font-size: 16px;
+    }
+
+    .popUp .box{
+        width: 420px;
+    }
+    .popUp.sideBar .box{
+        width: 400px;
+    }
+    .popUp.sideBar .box p{
+        font-size: 16px;
+    }
+    .popUp.sideBar .box .content a{
+        font-size: 25px;
+    }
+    .popUp .box form button{
+        width: initial;
+        padding: 10px 20px;
+    }
+    .popUp.menuItem .img .price{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .popUp.menuItem .img button{
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1300px) {
+    header .carouselInner .carouselItem .content h2{
+        font-size: 65px;
+    }
+
+    nav .container .logo{
+        width: 20%;
+    }
+
+    #OurStory .part1 .item p:nth-of-type(1){
+        padding: 0 10px;
+    }
+    #OurStory .part2 .item {
+        width: 85%;
+    }
+
+    #SpecialDish .row{
+        height: 100vh;
+    }
+    #SpecialDish .bg{
+        width: 50%;
+    }
+    #SpecialDish .part2 .item{
+        width: 300px;
+    }
+
+    #Menu .menu .row .part .row1 .item2 .head{
+        display: block;
+    }
+    #Menu .menu .row .part .row1 .item2 .head h5:nth-of-type(1){
+        font-size: 19px;
+    }
+    #Menu .menu .row .part .row1 .item2 .head span{
+        display: none;
+    }
+    #Menu .menu .row .line{
+        display: block;
+    }
+
+    #OurChefs .row .item{
+        width: initial;
+    }
+    #OurChefs .row .item .body h2{
+        font-size: 20px;
+    }
+    #OurChefs .row .item .body span{
+        font-size: 10px;
+    }
+    #OurChefs .row .item .body p{
+        font-size: 12px
+    }
+
+    #Contact .box{
+        width: 500px;
+    }
+
+    .popUp .box{
+        width: 500px;
+        padding: 30px;
+    }
+    .popUp.sideBar .box .content a{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    section .header{
+        font-size: 50px;
+    }
+
+    nav .container .logo{
+        width: 15%;
+    }
+
+    header .carousell button.prev,
+    header .carousell button.next{
+        display: block;
+    }
+    header .carouselInner .carouselItem .content a{
+        padding: 13px 27px;
+    }
+
+    #About .content p{
+        width: 35%;
+        padding: 0;
+    }
+    #About .content .part1,
+    #About .content .part3{
+        margin-top: -50px;
+    }
+    #About .content .part2{
+        margin-top: 50px;
+    }
+
+    #OurStory .part1 .item p:nth-of-type(1){
+        padding: 0 30px;
+        font-size: 16px;
+    }
+    #OurStory .part1 .item button{
+        padding: 13px 27px;
+    }
+    #OurStory .part2 .item {
+        width: 80%;
+    }
+
+    #SpecialDish .part2 .item{
+        width: 350px;
+    }
+    #SpecialDish .part2 .item p{
+        font-size: 16px;
+    }
+    #SpecialDish .part2 .item a{
+        padding: 13px 27px;
+    }
+
+    #Menu .menu .row .part .row1 .item1{
+        width: 80px;
+        height: 80px;
+    }
+    #Menu .menu .row .part .row1 .item2 .head h5:nth-of-type(1){
+        font-size: 20px;
+    }
+    #Menu .menu .row .part .row1 .item2 .head{
+        display: flex;
+    }
+    #Menu .menu .row .part .row1 .item2 .head span{
+        display: block;
+    }
+
+    #OurChefs .row .item .body h2{
+        font-size: 30px;
+    }
+    #OurChefs .row .item .body span{
+        font-size: 12px;
+    }
+    #OurChefs .row .item .body p{
+        font-size: 14px
+    }
+
+    #Contact .box form button{
+        padding: 13px 27px;
+    }
+
+    .popUp .box form button{
+        padding: 13px 27px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    nav .container ul{
+        display: flex;
+    }
+
+    header .carouselInner .carouselItem .content h2{
+        font-size: 70px;
+    }
+    header .carouselInner .carouselItem .content a{
+        padding: 13px 30px;
+    }
+
+    #OurStory .part1 .item p:nth-of-type(1){
+        padding: 0 50px;
+    }
+    #OurStory .part1 .item button{
+        padding: 13px 30px;
+    }
+
+    #SpecialDish .part2 .item a{
+        padding: 13px 30px;
+    }
+
+    #Contact .box form button{
+        padding: 13px 30px;
+    }
+
+    .popUp .box form button{
+        padding: 13px 30px;
+    }
+}

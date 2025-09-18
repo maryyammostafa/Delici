@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delici</title>
+    <link rel="shortcut icon" href="./Images/badge-1.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/fonts.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/keyframes.css">
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/index.responsive.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="./Images/logo.png" class="img-fluid" alt="">
+            </div>
+            <ul type="none" class=" m-0">
+                <li class="me-3 active" onclick="changeActive(this)" data-section-id="Home">
+                    <a href="#Home" class="lines">Home</a>
+                </li>
+                <li class="me-3" onclick="changeActive(this)" data-section-id="About">
+                    <a href="#About" class="lines">About Us</a>
+                </li>
+                <li class="me-3" onclick="changeActive(this)" data-section-id="OurStory">
+                    <a href="#OurStory" class="lines">Our Story</a>
+                </li>
+                <li class="me-3" onclick="changeActive(this)" data-section-id="SpecialDish">
+                    <a href="#SpecialDish" class="lines">Special Dish</a>
+                </li>
+                <li class="me-3" onclick="changeActive(this)" data-section-id="Menu">
+                    <a href="#Menu" class="lines">Menu</a>
+                </li>
+                <li class="me-3" onclick="changeActive(this)" data-section-id="OurChefs">
+                    <a href="#OurChefs" class="lines">Our Chefs</a>
+                </li>
+                <li class="" onclick="changeActive(this)" data-section-id="Contact">
+                    <a href="#Contact" class="lines">Contact Us</a>
+                </li>
+            </ul>
+            <div class="button" onclick="openPopUp('sideBar')">
+                <span></span>
+                <span class="my-1"></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <header id="Home">
+        <div class="carousell overflow-hidden">
+            <button class="btn prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="btn next"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="carouselInner vh-100">
+                <div class="carouselItem active" data-index="0">
+                    <div class="container text-center">
+                        <div class="content">
+                            <div class="title mb-3">
+                                <h6>DELIGHTFUL EXPERIENCE</h6>
+                                <img src="./Images/separator.svg" class="img-fluid" alt="">
+                            </div>
+                            <h2 class="h1 mt-4">Flavors Inspired By <br> The Seasons</h2>
+                            <p class="mb-4 mb-lg-5">Come with family & feel the joy of mouthwatering food</p>
+                            <div class="button">
+                                <a href="#Menu" class="main btn"><span class="position-relative z-1">VIEW OUR MENU</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carouselItem" data-index="1">
+                    <div class="container text-center">
+                        <div class="content">
+                            <div class="title mb-3">
+                                <h6>AMAZING & DELICIOUS</h6>
+                                <img src="./Images/separator.svg" class="img-fluid" alt="">
+                            </div>
+                            <h2 class="h1 mt-4">Where Every Flavor <br> Tells A Story</h2>
+                            <p class="mb-4 mb-lg-5">Come with family & feel the joy of mouthwatering food</p>
+                            <div class="button">
+                                <a href="#Menu" class="main btn"><span class="position-relative z-1">VIEW OUR MENU</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carouselItem" data-index="2">
+                    <div class="container text-center">
+                        <div class="content">
+                            <div class="title mb-3">
+                                <h6>TRADATIONAL & HYGINE</h6>
+                                <img src="./Images/separator.svg" class="img-fluid" alt="">
+                            </div>
+                            <h2 class="h1 mt-4">For The Love Of <br> Delicious Food</h2>
+                            <p class="mb-4 mb-lg-5">Come with family & feel the joy of mouthwatering food</p>
+                            <div class="button">
+                                <a href="#Menu" class="main btn"><span class="position-relative z-1">VIEW OUR MENU</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="indicators">
+                <ul type="none" class="d-flex">
+                    <li class="me-2 active" data-index="0"></li>
+                    <li class="me-2" data-index="1"></li>
+                    <li data-index="2"></li>
+                </ul>
+            </div>
+            <div class="book text-center" onclick="openPopUp('booking')">
+                <img src="./Images/book-icon-1.png" class="img-fluid" alt="">
+                <p class="mt-2">BOOK A <br> TABLE</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="About">
+        <div class="imgRight">
+            <img src="./Images/bg-1.png" class="img-fluid" alt="">
+        </div>
+        <div class="imgLeft">
+            <img src="./Images/bg-2.png" class="img-fluid" alt="">
+        </div>
+        <div class="container text-center">
+            <div class="title mb-3">
+                <h6>FLAVORS FOR ROYALTY</h6>
+                <img src="./Images/separator.svg" class="img-fluid" alt="">
+            </div>
+            <div class="content">
+                <h2 class="header mb-3">We Offer Top Notch</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever.</p>
+                <div class="row mt-5 mt-lg-0">
+                    <div class="col-lg-4 mb-5 mb-lg-0 part1">
+                        <div class="item overflow-hidden">
+                            <div class="img mb-3 mb-lg-4">
+                                <img src="./Images/offer-image-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h2>Breakfast</h2>
+                            <a href="#Menu" class="lines btn">VIEW MENU</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 part2">
+                        <div class="item overflow-hidden">
+                            <div class="img mb-3 mb-lg-4">
+                                <img src="./Images/offer-image-2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h2>Appetizers</h2>
+                            <a href="#Menu" class="lines btn">VIEW MENU</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0 part3">
+                        <div class="item overflow-hidden">
+                            <div class="img mb-3 mb-lg-4">
+                                <img src="./Images/offer-image-3.jpg" class="img-fluid" alt="">
+                            </div>
+                            <h2>Drinks</h2>
+                            <a href="#Menu" class="lines btn">VIEW MENU</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="OurStory" class="overflow-hidden">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0 part1">
+                    <div class="item">
+                        <div class="title mb-3">
+                            <h6>OUR STORY</h6>
+                            <img src="./Images/separator.svg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="header">Every Flavor Tells <br> A Story</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book It has survived not only five centuries, but also the leap into.</p>
+                        <p class="fw-bolder mb-0">Book Through Call</p>
+                        <a href="tel:+201021080042" class="lines btn p-0">+20-102-108-0042</a>
+                        <button class="main btn d-block m-auto mt-3"><span class="position-relative z-1">Read More</span></button>
+                    </div>
+                </div>
+                <div class="col-md-6  d-flex justify-content-center align-items-center part2">
+                    <div class="item">
+                        <div class="rightImg">
+                            <img src="./Images/badge-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="img">
+                            <img src="./Images/image-1.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="leftImg">
+                            <img src="./Images/image-2.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="SpecialDish">
+        <div class="bg"></div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 vh-100 part1"></div>
+                <div class="col-md-6 part2">
+                    <div class="item">
+                        <img src="./Images/badge-2.png" class="bd img-fluid" alt="">
+                        <div class="title mb-3">
+                            <h6>SPECIAL DISH</h6>
+                            <img src="./Images/separator.svg" class="img-fluid" alt="">
+                        </div>
+                        <h2 class="header">Lobster Tortellini</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.</p>
+                        <div class="price d-flex align-items-center">
+                            <h5 class="me-3">$40.00</h5>
+                            <h3>$20.00</h3>
+                        </div>
+                        <a href="#Menu" class="main btn mt-3"><span class="position-relative z-1">VIEW ALL MENU</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Menu">
+        <div class="img imgLeft">
+            <img src="./Images/bg-5.png" class="img-fluid" alt="">
+        </div>
+        <div class="img imgRight">
+            <img src="./Images/bg-6.png" class="img-fluid" alt="">
+        </div>
+        <div class="container position-relative z-1">
+            <div class="title mb-3 text-center">
+                <h6>SPECIAL SELECTION</h6>
+                <img src="./Images/separator.svg" class="img-fluid" alt="">
+            </div>
+            <h2 class="header mb-3 text-center">Delicious Menu</h2>
+            <div class="menuNav">
+                <ul type="none" class="">
+                    <li class="lines active" onclick="changeActive(this)" data-type="breakfast">BreakFast</li>
+                    <span class="square mx-4"></span>
+                    <li class="lines" onclick="changeActive(this)" data-type="lunch">Lunch</li>
+                    <span class="square mx-4"></span>
+                    <li class="lines" onclick="changeActive(this)" data-type="dinner">Dinner</li>
+                    <span class="square mx-4"></span>
+                    <li class="lines" onclick="changeActive(this)" data-type="drinks">Drinks</li>
+                </ul>
+            </div>
+            <div class="menu mt-5">
+                <div class="menuInner">
+                    <div class="menuItem breakfast active show" data-type="breakfast">
+                        <div class="row position-relative">
+                            <div class="col-md-6 part part1 pe-md-4 pe-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="0">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img1"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="breakfast" data-index="0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Everyday Pancakes</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$35.92</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="1">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img2"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="breakfast" data-index="1"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Waffels</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$38.36</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5 mb-md-0" data-index="2">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img3"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="breakfast" data-index="2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">French Toast</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$47.88</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="col-md-6 part part2 ps-md-4 ps-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="3">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img4"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="breakfast" data-index="3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Shakshuka With Feta</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$31.95</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="4">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img5"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="breakfast" data-index="4"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Avocado Toast</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$43.78</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1" data-index="5">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img6"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="breakfast" data-index="5"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Scallion Egg Wrap</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$31.20</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem lunch" data-type="lunch">
+                        <div class="row position-relative">
+                            <div class="col-md-6 part part1 pe-md-4 pe-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="0">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img1"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="lunch" data-index="0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Bean Quesadillas</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$30.43</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="1">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img2"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="lunch" data-index="1"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Creamy Mushroom</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$29.51</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5 mb-md-0" data-index="2">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img3"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="lunch" data-index="2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Noodle Salad</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$31.66</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="col-md-6 part part2 ps-md-4 ps-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="3">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img4"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="lunch" data-index="3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Feta Grilled Cheese</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$42.17</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="4">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img5"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="lunch" data-index="4"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Chicken Pasta</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$25.22</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1" data-index="5">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img6"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="lunch" data-index="5"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Sausage Pasta</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$43.46</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem dinner" data-type="dinner">
+                        <div class="row position-relative">
+                            <div class="col-md-6 part part1 pe-md-4 pe-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="0">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img1"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="dinner" data-index="0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Creamy Beans</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$42.85</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="1">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img2"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="dinner" data-index="1"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Classic Shrimp</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$49.42</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5 mb-md-0" data-index="2">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img3"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="dinner" data-index="2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Kung Pao Chicken</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$28.16</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="col-md-6 part part2 ps-md-4 ps-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="3">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img4"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="dinner" data-index="3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Elena Sandwich</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$29.00</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="4">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img5"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="dinner" data-index="4"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Turmeric Chicken</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$45.23</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1" data-index="5">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img6"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="dinner" data-index="5"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Original Nachos</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$26.45</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuItem drinks" data-type="drinks">
+                        <div class="row position-relative">
+                            <div class="col-md-6 part part1 pe-md-4 pe-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="0">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img1"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="drinks" data-index="0"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Blueberry Lemonade</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$36.49</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="1">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img2"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="drinks" data-index="1"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Frozen Lemonade</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$41.50</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5 mb-md-0" data-index="2">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img3"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="drinks" data-index="2"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Raspberry Lemonade</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$48.14</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="col-md-6 part part2 ps-md-4 ps-lg-5">
+                                <div class="item">
+                                    <div class="row row1 mb-5" data-index="3">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img4"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="drinks" data-index="3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Raspberry Lemonade</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$46.99</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1 mb-5" data-index="4">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img5"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="drinks" data-index="4"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Honeydew Melont</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$43.78</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row1" data-index="5">
+                                        <div class="col-4 col-md-5 col-lg-3">
+                                            <div class="item1">
+                                                <div class="img img6"></div>
+                                                <div class="layout">
+                                                    <i class="fa-regular fa-square-plus icon" data-type="drinks" data-index="5"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-8 col-md-7 col-lg-9">
+                                            <div class="item2">
+                                                <div class="head">
+                                                    <h5 class="mb-0">Changing Lemonade</h5>
+                                                    <span class="mb-0 mx-3"></span>
+                                                    <h5 class="mb-0">$42.42</h5>
+                                                </div>
+                                                <p class="mb-0 mt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, incidunt.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="OurChefs">
+        <div class="container">
+            <div class="title mb-3 text-center">
+                <h6>EXPERIENCED TEAM</h6>
+                <img src="./Images/separator.svg" class="img-fluid" alt="">
+            </div>
+            <h2 class="header mb-4 text-center">Meet Our Chef</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="item">
+                        <div class="img">
+                            <img src="./Images/chef-1.jpg" class="img-fluid" alt="">
+                            <div class="layout">
+                                <ul type="none" class="d-flex p-0 m-0">
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <h2 class="mt-3">Willium Joe</h2>
+                            <span class="my-2">MASTER CHEF</span>
+                            <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="item">
+                        <div class="img">
+                            <img src="./Images/chef-2.jpg" class="img-fluid" alt="">
+                            <div class="layout">
+                                <ul type="none" class="d-flex p-0 m-0">
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <h2 class="mt-3">Steave Den</h2>
+                            <span class="my-2">MASTER CHEF</span>
+                            <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="img">
+                            <img src="./Images/chef-3.jpg" class="img-fluid" alt="">
+                            <div class="layout">
+                                <ul type="none" class="d-flex p-0 m-0">
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    </li>
+                                    <li class="me-3">
+                                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    </li>
+                                    <li class="">
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="body">
+                            <h2 class="mt-3">Lily Sopy</h2>
+                            <span class="my-2">MASTER CHEF</span>
+                            <p>Lorem Ipsum is simply dummy printing and typeset industry lorem Ipsum has been the industrys.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="container">
+            <div class="box text-center">
+                <div class="img mb-3">
+                    <img src="./Images/logo.png" class="img-fluid" alt="">
+                </div>
+                <div class="info">
+                    <p><i class="fa-solid fa-location-dot"></i> Delicious City, London 9578, UK</p>
+                    <p><i class="fa-regular fa-clock"></i> Daily : 8.00 am to 10.00 pm</p>
+                    <p><i class="fa-regular fa-envelope"></i> booking@restaurant.com</p>
+                </div>
+                <div class="squares mb-4">
+                    <span class="square"></span>
+                    <span class="square mx-1"></span>
+                    <span class="square"></span>
+                </div>
+                <form autocomplete="off">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <input type="text" class="form-control" name="name" placeholder="Name...">
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <input type="email" class="form-control" name="email" placeholder="Email...">
+                        </div>
+                        <div class="col-md-12 mb-4">
+                            <textarea class="form-control" cols="30" rows="5" name="message" placeholder="Message..."></textarea>
+                        </div>
+                    </div>
+                    <button class="main btn w-100"><span class="position-relative z-1">Send Message</span></button>
+                </form>
+            </div>
+            <p class="mt-5 text-center position-relative z-1">© 2023 Restaurant. All Rights Reserved | Created by <span>SemiCode</span></p>
+        </div>
+    </section>
+
+    <div class="popUp sideBar" onclick="closePopUp('sideBar')">
+        <div class="box text-center">
+            <i class="fa-regular fa-circle-xmark exit" onclick="closePopUp('booking')"></i>
+            <div class="img1">
+                <img src="./Images/logo.png" class="img-fluid" alt="">
+            </div>
+            <div class="img2 my-4">
+                <img src="./Images/sidebar-image.jpg" class="img-fluid rounded-circle" alt="">
+            </div>
+            <div class="links text-start">
+                <ul type="none" class="p-0">
+                    <li class="active" onclick="setTimeout(()=>{closePopUp('sideBar')},500)" data-section-id="Home">
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li  onclick="setTimeout(()=>{closePopUp('sideBar')},500)" data-section-id="About">
+                        <a href="#About">About Us</a>
+                    </li>
+                    <li  onclick="setTimeout(()=>{closePopUp('sideBar')},500)" data-section-id="OurStory">
+                        <a href="#OurStory">Our Story</a>
+                    </li>
+                    <li  onclick="setTimeout(()=>{closePopUp('sideBar')},500)" data-section-id="SpecialDish">
+                        <a href="#SpecialDish">Special Dish</a>
+                    </li>
+                    <li  onclick="setTimeout(()=>{closePopUp('sideBar')},500)" data-section-id="Menu">
+                        <a href="#Menu">Menu</a>
+                    </li>
+                    <li  onclick="setTimeout(()=>{closePopUp('sideBar')},500)" data-section-id="OurChefs">
+                        <a href="#OurChefs">Our Chefs</a>
+                    </li>
+                    <li  onclick="setTimeout(()=>{closePopUp('sideBar')},500)" data-section-id="Contact">
+                        <a href="#Contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content">
+                <h2 class="h1">Visit Us</h2>
+                <div class="info">
+                    <p><i class="fa-solid fa-location-dot"></i> Delicious City, London 9578, UK</p>
+                    <p><i class="fa-regular fa-clock"></i> Daily : 8.00 am to 10.00 pm</p>
+                    <p><i class="fa-regular fa-envelope"></i> booking@restaurant.com</p>
+                </div>
+                <span class="square my-3"></span>
+                <span class="book">Booking Request</span>
+                <a href="tel:+201021080042" class="lines btn p-0">+20-102-108-0042</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popUp booking" onclick="closePopUp('booking')">
+        <div class="box text-center">
+            <i class="fa-regular fa-circle-xmark exit" onclick="closePopUp('booking')"></i>
+            <div class="title mb-3">
+                <h6>RESERVATION</h6>
+                <img src="./Images/separator.svg" class="img-fluid" alt="">
+            </div>
+            <h2 class="h1 mb-4">Book A Table</h2>
+            <p>Restaurant will be open for all days, Sunday night will be closed, All booking payment is secured with credit card, no charges will be aplly for online booking. no refundable.</p>
+            <p>Booking request <a href="tel:+201021080042">+20-102-108-0042</a> or fill out the order form</p>
+            <form class="mt-5" autocomplete="off">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <input type="text" class="form-control" name="reservationName" placeholder="Reservation Name...">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <input type="text" class="form-control" name="phone" placeholder="Phone Number...">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <input type="number" class="form-control" name="seats" min="1" placeholder="Seats...">
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <input type="datetime-local" class="form-control" name="date">
+                    </div>
+                    <div class="col-md-12 mb-4">
+                        <textarea name="message" class="form-control" cols="30" rows="5" placeholder="Notes Message..."></textarea>
+                    </div>
+                </div>
+                <button class="btn main"><span class="position-relative z-1">Book A Table</span></button>
+            </form>
+        </div>
+    </div>
+
+    <div class="popUp menuItem"  onclick="closePopUp('menuItem')">
+        <div class="box text-center">
+            <i class="fa-regular fa-circle-xmark exit" onclick="closePopUp('menuItem')"></i>
+            <div class="title mb-3">
+                <h6>SPECIAL SELECTION</h6>
+                <img src="./Images/separator.svg" class="img-fluid" alt="">
+            </div>
+            <h2 class="h1 mb-4">Everyday Pancakes</h2>
+            <div class="img">
+                <img src="./Images/BF-1.webp" class="img-fluid" alt="">
+                <span class="price">$35.92</span>
+                <button class="prev"><i class="fa-solid fa-chevron-left prev"></i></button>
+                <button class="next"><i class="fa-solid fa-chevron-right next"></i></button>
+            </div>
+            <p class="mt-3 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, reiciendis numquam magnam dolore ratione tenetur eos rem modi voluptates obcaecati quidem voluptate mollitia sunt aspernatur odit porro possimus ducimus, explicabo quaerat, pariatur illo praesentium non delectus inventore? Molestias porro delectus laborum perferendis ratione maxime, impedit veniam minus dolor, magnam a.</p>
+        </div>
+    </div>
+
+    <div class="loadingPage">
+        <div class="load"></div>
+        <div class="text mt-3">
+            <span data-letter="D">D</span>
+            <span data-letter="E">E</span>
+            <span data-letter="L">L</span>
+            <span data-letter="I">I</span>
+            <span data-letter="C">C</span>
+            <span data-letter="I">I</span>
+        </div>
+    </div>
+
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/globalFunctions.js"></script>
+    <script src="./JS/index.js"></script>
+</body>
+</html>
